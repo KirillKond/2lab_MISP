@@ -79,4 +79,4 @@ inline std::wstring modAlphaCipher::getValidCipherText(const std::wstring & ws)
             throw cipher_error(std::string("Неправильный тип выходного текста")+s);
     }
     return ws;
-}
+}}
