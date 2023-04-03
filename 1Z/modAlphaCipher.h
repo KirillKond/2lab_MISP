@@ -29,4 +29,4 @@ public:
         std::invalid_argument(what_arg) {}
     explicit cipher_error (const char* what_arg):
         std::invalid_argument(what_arg) {}
-}};
+};
