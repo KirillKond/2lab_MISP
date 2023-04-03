@@ -1,4 +1,3 @@
-//modAlphaCipher.h
 #pragma once
 #include <iostream>
 #include <string>
@@ -17,9 +16,9 @@ private:
     string getValidText(const std::string & s);
 public:
     modAlphaCipher()=delete;
-    modAlphaCipher(const int& newkey) :key(newkey) {};   // конструктор
-    string coder(const string& open_st);   // зашифрование
-    string decoder(const string& cipher_st); // расшифрование
+    modAlphaCipher(const int& newkey) :key(newkey) {};
+    string coder(const string& open_st);
+    string decoder(const string& cipher_st);
 };
 class cipher_error: public std::invalid_argument
 {
