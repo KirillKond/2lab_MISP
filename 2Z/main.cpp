@@ -24,8 +24,8 @@ void check(const string& Text, const string& key)
 
 int main(int argc, char **argv)
 {
-    check("SLOVO","0");
-    check("SLOVO","");
-    check("SLOVO","23");
-    check("9876234","23");
+    check("HELLO","0");
+    check("HELLO","");
+    check("HELLO","19");
+    check("9876234321","19");
 }
